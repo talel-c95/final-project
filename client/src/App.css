@@ -1,0 +1,163 @@
+/* Custom Styles for MainPage */
+.custom-navbar {
+    background-color: #49eaff; /* Turquoise background for navbar */
+  }
+  
+  .custom-navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 1.8rem;
+  }
+  
+  .custom-nav-link {
+    color: white !important;
+    font-size: 1.1rem;
+  }
+  
+  .custom-nav-link:hover {
+    color: #ff5733 !important;
+  }
+  
+  .custom-search-form input {
+    width: 300px;
+    padding: 8px;
+    border-radius: 25px;
+    border: 2px solid #ddd;
+  }
+  
+  .custom-search-form button {
+    border-radius: 25px;
+    padding: 8px 15px;
+    background-color: #ff5733;
+    border: none;
+    color: white;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card img {
+    border-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .card-description {
+    font-size: 1rem;
+    color: #6c757d;
+  }
+  
+  .btn-primary {
+    background-color: #00bcd4;
+    border-radius: 20px;
+  }
+  
+  .btn-danger {
+    background-color: #f44336;
+    border-radius: 20px;
+  }
+  
+  body {
+    background-color: #e0f7fa; /* Light cyan background for the whole body */
+    font-family: 'Poppins', sans-serif;
+  }
+  .travel-logo {
+    font-family: 'Poppins', sans-serif; /* Stylish font */
+    font-weight: 700; /* Bold text */
+    font-size: 3rem; /* Large size */
+    color: #007BFF; /* Primary blue color */
+    text-transform: uppercase; /* Uppercase for emphasis */
+    letter-spacing: 2px; /* Space between letters */
+    position: relative;
+    display: inline-block;
+}
+
+.travel-logo::before {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background-color: #FFD700; /* Golden accent for the underline */
+    width: 80%; /* Makes it smaller than the text width */
+    margin: 0 auto;
+}
+
+.travel-logo:hover {
+    color: #FFD700; /* Change text color to gold on hover */
+    cursor: pointer;
+}
+
+.travel-logo::after {
+    content: "✈️"; /* Add a travel-related icon */
+    font-size: 2rem;
+    position: absolute;
+    right: -30px; /* Adjust the position */
+    top: -5px; /* Position it above the text */
+}
+.navbar-brand {
+    font-family: 'Lora', serif; /* Elegant serif font for a professional feel */
+    font-weight: 600; /* Slightly bold for distinction */
+    font-size: 2.5rem; /* Adjust size for balance in navbar */
+    color: #0056b3; /* Dark blue for a professional look */
+    text-transform: capitalize; /* First letter of each word capitalized */
+    letter-spacing: 1px; /* Space letters out slightly for clarity */
+    position: relative;
+    display: inline-block;
+    text-decoration: none; /* Remove default underline */
+    transition: all 0.3s ease; /* Smooth transitions for effects */
+}
+
+/* Adding a decorative underline that appears on hover */
+.navbar-brand::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background-color: #FFD700; /* Golden color for travel inspiration */
+    width: 70%; /* Underline doesn't stretch the entire width */
+    margin: 0 auto;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect for interactivity */
+.navbar-brand:hover {
+    color: #FFD700; /* Gold color on hover */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Hover effect for the underline */
+.navbar-brand:hover::after {
+    width: 100%; /* Full underline on hover */
+}
+
+/* Adding a small travel-related icon next to the text */
+.navbar-brand::before {
+    content: "✈️"; /* Airplane icon to emphasize travel */
+    font-size: 1.8rem; /* Icon size adjustment */
+    margin-right: 8px; /* Space between the icon and text */
+    position: absolute;
+    left: -30px; /* Position the icon to the left of the text */
+    top: 50%;
+    transform: translateY(-50%);
+}
+
